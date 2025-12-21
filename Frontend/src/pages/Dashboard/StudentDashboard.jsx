@@ -62,7 +62,7 @@ const StudentDashboard = () => {
 
     // 1️⃣ Create order (NO amount sent)
     const orderRes = await axios.post(
-      "http://localhost:3000/api/createOrder",
+      "/api/createOrder",
       {
         courseId: course.Courseid,
         studentId: studentId,
