@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://coursehub-backend-ilv6.onrender.com/api/$1"
+    },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
